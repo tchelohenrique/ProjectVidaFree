@@ -1,0 +1,156 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <title>Projeto Vida Livre</title>
+
+        <!-- Bootstrap core CSS -->
+        <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Custom styles for this template -->
+        <link href="css/portfolio-item.css" rel="stylesheet">
+
+
+
+
+        <script>
+            function exibe2() {
+                document.getElementById('botaoDownload').style.display = "";
+                document.getElementById('botaoDownload2').style.display = "";
+            }
+            
+
+            window.onload = function () {
+                setTimeout("exibe2()", 240000);
+            }
+
+            setTimeout(function() {
+                $('#foo').fadeOut('fast');}, 240000);
+               
+
+
+
+            
+
+        </script>
+
+
+
+
+
+    </head>
+
+    <body>
+
+        <div class="container">
+
+            <img src="imagens/vidalivre.png "  width="250" > <br>
+
+            <h1><b>
+                    <span class="badge badge-danger">Passo 1 de 3</span>
+                    <span class="badge badge-light">A mentira que nos contaram sobre ter um <font color="red">"Emprego Seguro"</font>.</span>
+                </b></h1>
+
+            <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+
+            <br>
+
+            <div class="jumbotron" >
+                <iframe class="embed-responsive-item" width="1040" height="500" src="https://www.youtube.com/embed/1LsHAft0Rps?autoplay=1&amp;loop=0&amp;showinfo=0&amp;controls=0&amp;rel=0&amp;start=0&amp;end=0" frameborder="0" allowfullscreen="true"></iframe>    
+                <center><br>
+
+
+
+                        
+                   
+                    <div id="foo">
+                        <h4> <font color=#A9A9A9>O botão para o próximo vídeo aparecerá em apenas 4 minutos...<br> 
+                            e <u>você terá acesso a próxima página...</u> </font></h4>
+                    </div>
+
+                    <button id="botaoDownload" style="display: none;" type="button" class="btn btn-success" onclick="window.location.href = 'index2.html'"><h1>Quero Assistir o Vídeo 2</h1></button>
+
+
+
+
+
+
+
+                </center>
+            </div>
+
+        </div>
+        <!-- /.container -->
+        <footer class="py-5 bg-light">
+            <div class="container">
+
+                <h1 class="m-0 text-center"><font color=#607B8B>Veja o que os Membros do nosso Grupo tem a dizer:</font></h1>
+                <br><br>
+
+
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <center> <img class="d-block w-50" src="imagens/carousel 1.JPG" alt="First slide" ></center>
+                        </div>
+                        <div class="carousel-item">
+                            <center> <img class="d-block w-50" src="imagens/carousel 4.JPG" alt="Second slide"> </center>
+                        </div>
+                        <div class="carousel-item">
+                            <center> <img class="d-block w-50" src="imagens/carousel 3.JPG" alt="Third slide"> </center>
+                        </div>
+
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+
+                <br> <br>
+                <center>
+                    <h1> <font color="red"> O tempo está acabando! </font></h1>
+                    <h1>Aproveite esta oportunidade enquanto <br>ainda está disponível...</h1>
+                    <br>
+                    <button id="botaoDownload2" style="display: none;" type="button" class="btn btn-success" onclick="window.location.href = 'index2.html'"><h1>Quero Assistir o Vídeo 2</h1></button>
+                </center>    
+
+
+            </div>
+            <!-- /.container -->
+        </footer>
+        <!-- Footer -->
+
+        <footer class="py-5 bg-dark">
+            <div class="container">
+                <p class="m-0 text-center text-white">Copyright &copy; Simão Rossy Guerreiro Macêdo</p>
+                                
+            </div>
+            <!-- /.container -->
+        </footer>
+
+        <!-- Bootstrap core JavaScript -->
+        <script src="vendor/jquery/jquery.min.js"></script>
+        <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    </body>
+
+</html>
